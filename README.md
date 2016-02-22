@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/brandondoran/react-webpack-starter.svg?branch=master)](https://travis-ci.org/brandondoran/react-webpack-starter)
+[![Dependency Status](https://david-dm.org/brandondoran/react-webpack-starter.svg)](https://david-dm.org/brandondoran/react-webpack-starter)
+[![devDependency Status](https://david-dm.org/brandondoran/react-webpack-starter/dev-status.svg)](https://david-dm.org/brandondoran/react-webpack-starter#info=devDependencies)
+
 # react-webpack-starter
 ---
 A minimal starter for React apps.
