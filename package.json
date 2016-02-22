@@ -22,7 +22,7 @@
   ],
   "author": "Brandon Doran <bdoran@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/brandondoran/react-webpack-starter"
+  "repository": "https://github.com/brandondoran/react-webpack-starter",
   "devDependencies": {
     "babel-core": "^6.3.15",
     "babel-loader": "^6.2.0",
