@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "lint": "./node_modules/.bin/eslint . --ext .js || true",
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "pretest": "npm run --silent lint",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "npm run clean",
     "build": "webpack --config webpack.config.js --progress --profile --colors",
