@@ -25,10 +25,4 @@ app.use(webpackHotMiddleware(compiler));
 
 app.use((req, res) => res.sendFile(index));
 
-app.listen(8000, 'localhost', function(err) {
-  if (err) {
-    return console.log(err);
-  }
-
-  console.info(`==> 🌎  Listening at http://localhost:${port}`);
-});
+app.listen(port, 'localhost', () => console.info(`Listening at http://localhost:${port}`));
