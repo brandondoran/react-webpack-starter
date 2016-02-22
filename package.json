@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
+    "lint": "./node_modules/.bin/eslint . --ext .js || true",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "npm run clean",
     "build": "webpack --config webpack.config.js --progress --profile --colors",
@@ -27,6 +28,9 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.1",
+    "eslint-plugin-react": "^4.0.0",
     "eventsource-polyfill": "^0.9.6",
     "react-transform-hmr": "^1.0.1",
     "rimraf": "^2.4.3",
