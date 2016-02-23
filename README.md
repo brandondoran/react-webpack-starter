@@ -3,7 +3,7 @@
 [![devDependency Status](https://david-dm.org/brandondoran/react-webpack-starter/dev-status.svg)](https://david-dm.org/brandondoran/react-webpack-starter#info=devDependencies)
 
 # react-webpack-starter
----
+
 A minimal starter for React apps.
 
 - Babel transpiler

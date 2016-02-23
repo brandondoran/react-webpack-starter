@@ -19,6 +19,16 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   module: {
+    preLoaders: [
+      {
+        test: /\.jsx?$/,
+        loaders: ['eslint'],
+        include: [
+          path.join(__dirname, 'server'),
+          path.join(__dirname, 'app')
+        ]
+      }
+    ],
     loaders: [{
       test: /\.jsx?/,
       loaders: ['babel'],
