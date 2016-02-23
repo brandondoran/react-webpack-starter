@@ -9,8 +9,8 @@
     "pretest": "npm run --silent lint",
     "test": "NODE_ENV=test mocha --compilers js:babel-register",
     "prebuild": "npm run clean",
-    "build": "webpack --config webpack.config.js --progress --profile --colors",
-    "start": "node index"
+    "build": "webpack --config webpack.config.prod.js --progress --profile --colors",
+    "start": "node server"
   },
   "keywords": [
     "react",
@@ -36,6 +36,7 @@
     "eslint-plugin-react": "^4.0.0",
     "eventsource-polyfill": "^0.9.6",
     "expect": "^1.14.0",
+    "html-webpack-plugin": "^2.9.0",
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^0.14.7",
     "react-transform-hmr": "^1.0.1",
@@ -46,6 +47,7 @@
   },
   "dependencies": {
     "babel-register": "^6.4.3",
+    "compression": "^1.6.1",
     "express": "^4.13.3",
     "react": "^0.14.3",
     "react-dom": "^0.14.3"
