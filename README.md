@@ -8,10 +8,11 @@ A minimal starter for React apps.
 
 - Babel transpiler
 - Webpack bundler with dev and prod configs
-- [Hot Module Replacement](https://github.com/gaearon/react-transform-hmr) in dev
-- Express dev server with [Webpack dev middleware](https://github.com/webpack/webpack-dev-middleware) and prod server
+- Express with [Webpack dev middleware](https://github.com/webpack/webpack-dev-middleware)
+- [React Hot Loader 3](https://github.com/gaearon/react-hot-loader) in dev
 - ESlint with [Airbnb configuration](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 - Mocha test runner with [expect](https://github.com/mjackson/expect) assertions
+- Code Coverage reporting with [nyc](https://github.com/bcoe/nyc)
 
 
 ## Running in development
