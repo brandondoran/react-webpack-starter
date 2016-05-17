@@ -6,8 +6,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "lint": "./node_modules/.bin/eslint . --ext .js",
-    "pretest": "npm run --silent lint",
-    "test": "NODE_ENV=test mocha --compilers js:babel-register",
+    "test": "cross-env NODE_ENV=test nyc mocha --compilers js:babel-register",
+    "test:watch": "npm test -- -w",
     "prebuild": "npm run clean",
     "build": "webpack --config webpack.config.prod.js --progress --profile --colors",
     "start": "node server"
@@ -38,6 +38,7 @@
     "expect": "^1.14.0",
     "html-webpack-plugin": "^2.9.0",
     "mocha": "^2.4.5",
+    "nyc": "^6.4.4",
     "react-addons-test-utils": "^0.14.7",
     "react-transform-hmr": "^1.0.1",
     "rimraf": "^2.4.3",
@@ -51,5 +52,10 @@
     "express": "^4.13.3",
     "react": "^0.14.3",
     "react-dom": "^0.14.3"
+  },
+  "nyc": {
+    "include": [
+      "app/**/*.js"
+    ]
   }
 }
