@@ -39,10 +39,14 @@
     "html-webpack-plugin": "^2.9.0",
     "mocha": "^2.4.5",
     "nyc": "^6.4.4",
-    "react-addons-test-utils": "^0.14.7",
+    "react-addons-test-utils": "^15.0.2",
+    "react-hot-loader": "^3.0.0-beta.1",
     "react-transform-hmr": "^1.0.1",
+    "redux": "^3.5.2",
+    "redux-devtools": "^3.3.1",
+    "redux-devtools-log-monitor": "^1.0.11",
     "rimraf": "^2.4.3",
-    "webpack": "^1.12.9",
+    "webpack": "^1.13.0",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0"
   },
@@ -50,8 +54,8 @@
     "babel-register": "^6.4.3",
     "compression": "^1.6.1",
     "express": "^4.13.3",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
   },
   "nyc": {
     "include": [
