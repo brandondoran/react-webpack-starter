@@ -38,7 +38,7 @@
     "eslint-plugin-react": "^4.0.0",
     "expect": "^1.14.0",
     "html-webpack-plugin": "^2.9.0",
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.3",
     "nyc": "^6.4.4",
     "react-addons-test-utils": "^15.0.2",
     "react-hot-loader": "^3.0.0-beta.1",
