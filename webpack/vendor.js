@@ -1,4 +1,5 @@
 export default [
   'react',
-  'react-dom'
+  'react-dom',
+  'react-router'
 ];
