@@ -34,4 +34,5 @@ app.use(function (req, res, next) {
   });
 });
 
-app.listen(port, 'localhost', () => console.info(`Listening at http://localhost:${port}`));
+app.listen(port, 'localhost',
+  () => console.info(`Listening at http://localhost:${port}`)); // eslint-disable-line no-console

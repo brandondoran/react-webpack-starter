@@ -14,4 +14,5 @@ app.use('/static', express.static(path.join(__dirname, '../dist'), {
 
 app.use((req, res) => res.sendFile(index));
 
-app.listen(port, () => console.info('==> Listening on port %s.', port));
+app.listen(port,
+  () => console.info('==> Listening on port %s.', port)); // eslint-disable-line no-console
