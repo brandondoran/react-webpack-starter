@@ -6,9 +6,9 @@ import routes from './routes';
 
 render(
   <AppContainer>
-     <Router history={browserHistory}>
+    <Router history={browserHistory}>
       {routes()}
-     </Router>
+    </Router>
   </AppContainer>,
   document.getElementById('root'));
 
