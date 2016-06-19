@@ -6,15 +6,15 @@ import routes from './routes';
 
 render(
   <AppContainer>
-     <Router history={browserHistory}>
+    <Router history={browserHistory}>
       {routes()}
-     </Router>
+    </Router>
   </AppContainer>,
   document.getElementById('root'));
 
 if (module.hot) {
   module.hot.accept('./components/App', () => {
-    const NextApp = require('./components/App').default;
+    const NextApp = require('./components/App').default; // eslint-disable-line global-require
     render(
       <AppContainer>
         <NextApp />
