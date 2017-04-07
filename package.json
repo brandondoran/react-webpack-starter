@@ -52,7 +52,7 @@
     "webpack-hot-middleware": "^2.6.0"
   },
   "dependencies": {
-    "babel-register": "^6.4.3",
+    "babel-register": "^6.24.1",
     "compression": "^1.6.1",
     "express": "^4.13.3",
     "react": "^15.0.2",
